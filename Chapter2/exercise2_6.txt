@@ -1,0 +1,3 @@
+有区别
+int month = 9, day = 7; //十进制， month = 9, day = 7;
+int month = 09, day = 07; //八进制， month变量无效，8进制没有9, day = 7;
