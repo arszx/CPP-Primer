@@ -1,0 +1,12 @@
+(a) 非法，要先初始化再赋值，不能在一步里完成；
+int input_value;
+std::cin >> input_value;
+
+(b) 非法，没做类型转换，存在丢失信息风险，编译器报错；
+int i = 3.14;
+
+(c) 非法，wage变量没声明；
+double salary = 9999.99;
+double wage = 9999.99;
+
+(d) 合法，对i赋值，会存在类型转化；
