@@ -1,0 +1,3 @@
+(a) ip 指向int型指针，值未赋值；i int型，值为0；r 对int型的引用，值为i地址；
+(b) i int型，值为0；ip 指向int型指针，值为0；
+(c) ip 指向int型指针，值为赋值；ip int型，值为0；

@@ -1,0 +1,4 @@
+int i = 0;
+(a) double *dp = &i;  // 非法，double型指针指向了int型变量；
+(b) int *ip = i;  // 合法；
+(c) int *p = &i;  // 合法；
